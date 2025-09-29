@@ -10,7 +10,7 @@ const Hero = () => {
 
                 <img src="/icon/waves.svg" alt="Heart" className="hero-waves" />
             </div>
-            <div className="container p-5 hero-text">
+            <div className="container px-5 hero-text">
                 <h1 className="hero-title">Vi ska gifta oss!</h1>
                 <p className="hero-subtitle">Och vi vill fira med er</p>
             </div>
