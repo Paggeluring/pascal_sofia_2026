@@ -1,0 +1,23 @@
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  background: #f6f0f0;
+  color: #2596be;
+}
+
+.wrapper {
+  min-height: 100vh;
+  max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 1.5px;
+}
+
+p {
+  letter-spacing: 1.5px;
+}
+
+    /* --background: 345 100% 97%; /* Soft pink/cream background */
+    /*--foreground: 215 50% 25%; Deep blue text */

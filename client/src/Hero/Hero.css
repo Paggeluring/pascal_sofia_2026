@@ -1,0 +1,39 @@
+.hero-image-container {
+    max-width: 600px;
+    height: 100%;
+    position: relative;
+    mask-image: linear-gradient(left top,from(rgba(0,0,0,1)), to(rgba(0,0,0,0)) 25%);
+    -webkit-mask-image: -webkit-gradient(linear, left 25%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+}
+
+.hero-waves {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero-logo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero-image-text {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.overlay-text {
+    position: absolute;
+    background-color: white;
+    color: Black;
+    font-size: 20px;
+    z-index: 999;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+}
