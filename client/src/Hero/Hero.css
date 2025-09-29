@@ -9,7 +9,7 @@
 .hero-waves {
     position: absolute;
     bottom: -1px;
-    left: 0;
+    left: -1px;
     width: 100%;
     height: auto;
 }
