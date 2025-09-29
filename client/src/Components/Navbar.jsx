@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light d-sm-none">
+        <nav className="navbar navbar-expand-lg navbar-light d-md-block d-none">
             <div className="container-fluid">
                 <div className="d-md-none"></div>
                 <button
@@ -20,19 +20,19 @@ const Navbar = () => {
                     <ul className="navbar-nav w-100 justify-content-between">
                         <li className="nav-item">
                             <a className="nav-link" href="#home">Vigsel</a>
-                            <span className="d-md-none">  ----------------------------------------------------------</span>
+                            <span className="d-md-none">  ---------------------------------------------------------</span>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#about">Boende</a>
-                            <span className="d-md-none">  ----------------------------------------------------------</span>
+                            <span className="d-md-none">  ---------------------------------------------------------</span>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#services">Brudfölje</a>
-                            <span className="d-md-none">  ----------------------------------------------------------</span>
+                            <span className="d-md-none">  ---------------------------------------------------------</span>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#contact">Gåvor</a>
-                            <span className="d-md-none">  ----------------------------------------------------------</span>
+                            <span className="d-md-none">  ---------------------------------------------------------</span>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#contact">Frågor och svar</a>
