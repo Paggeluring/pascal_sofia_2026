@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../Hero/Hero';
 import Navbar from '../Navbar';
 import Toast from '../Toast/Toast';
+import Party from '../Party/Party';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <Toast />
+            <Party />
         </div>
     );
 };
