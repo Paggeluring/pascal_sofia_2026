@@ -11,8 +11,10 @@ const Hero = () => {
                 <img src="/icon/waves.svg" alt="Heart" className="hero-waves" />
             </div>
             <div className="container px-5 hero-text">
-                <h1 className="hero-title">Vi ska gifta oss!</h1>
-                <p className="hero-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1 className="hero-title">Vi ska gifta oss...</h1>
+                <p className="hero-subtitle">... och det vill vi såklart fira med er! Vi kommer att viga oss den <b>9:e maj, 2026</b> i Bohuslän.</p>
+                <p>Vigseln kommer att hållas i <b>Hunnebostrands kyrka</b> kl. 13:00 och bröllopsfesten hålls på <b>Ramsviks Stugby & Camping</b></p>
+                <p>Vi älskar era barn, men den här gången älskar vi dem mer på distans! Vi vill att ni föräldrar känner att ni kan släppa loss lite extra och ta en shot med brudparet, utan några förpliktelser!</p>
             </div>
         </section>
     );
