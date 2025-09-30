@@ -1,7 +1,7 @@
 
 const ToastCard = ({ name = "Namn", image = "/img/anton.png", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam," }) => {
     return (
-        <div className='toast-card mt-5 mb-3'>
+        <div className='toast-card mb-5'>
             <div className='w-100 d-flex justify-content-center'>
                 <img src={image} alt={name} className='toast-card-image mx-0' />
             </div>

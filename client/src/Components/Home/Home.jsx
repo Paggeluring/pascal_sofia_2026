@@ -6,7 +6,7 @@ import Toast from '../Toast/Toast';
 
 const Home = () => {
     return (
-        <div className="wrapper">
+        <div className="wrapper d-flex flex-column align-items-center">
             <Navbar />
             <Hero />
             <Toast />

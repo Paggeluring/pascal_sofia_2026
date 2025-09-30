@@ -4,8 +4,7 @@ import ToastCard from './ToastCard';
 
 const Toast = () => {
     return (
-        <div className='container mt-5 p-5'>
-            {/* <h2>Möt våra Toastmasters</h2> */}
+        <div className='container mt-5 p-4'>
             <div className='row'>
                 <div className='col-12 col-md-6'>
                     <ToastCard name='Lotta Kylén' />
