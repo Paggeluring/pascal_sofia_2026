@@ -12,7 +12,7 @@ const Hero = () => {
             </div>
             <div className="container px-5 hero-text">
                 <h1 className="hero-title">Vi ska gifta oss!</h1>
-                <p className="hero-subtitle">Och vi vill fira med er</p>
+                <p className="hero-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </section>
     );
