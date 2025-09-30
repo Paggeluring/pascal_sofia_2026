@@ -34,13 +34,19 @@
     font-size: 40px;
 }
 
-.overlay-text {
-    position: absolute;
-    background-color: white;
-    color: Black;
-    font-size: 20px;
-    z-index: 999;
-    bottom: 0;
+.hero-btn {
+    background: #2596be;
+    color: white;
+    text-decoration: none;
     width: 100%;
-    padding: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+.hero-btn:hover {
+    background: #1e7a99;
+    color: white;
+    text-decoration: none;
 }
