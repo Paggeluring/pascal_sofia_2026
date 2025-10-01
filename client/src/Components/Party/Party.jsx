@@ -1,3 +1,4 @@
+import CircleImage from "../Toast/CircleImage";
 
 const Party = () => {
 
@@ -19,7 +20,7 @@ const Party = () => {
                 <div key={index} className='col-6 col-md-4'>
                     <div className='toast-card mt-5'>
                         <div className='w-100 d-flex justify-content-center'>
-                            <img src={person.image} alt={person.name} className='toast-card-image mx-0' />
+                            <CircleImage src={person.image} />
                         </div>
                         <div className='mt-3 text-center'>
                             <h3>{person.name}</h3>
