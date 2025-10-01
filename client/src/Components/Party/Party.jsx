@@ -15,21 +15,24 @@ const Party = () => {
     ];
 
     return (
-        <div className='row'>
-            {partyPeople.map((person, index) => (
-                <div key={index} className='col-6 col-md-4'>
-                    <div className='toast-card mt-5'>
-                        <div className='w-100 d-flex justify-content-center'>
-                            <CircleImage src={person.image} />
-                        </div>
-                        <div className='mt-3 text-center'>
-                            <h3>{person.name}</h3>
-                            <p>{person.title}</p>
+        <>
+            <h2>Möt vårt härliga följe</h2>
+            <div className='row'>
+                {partyPeople.map((person, index) => (
+                    <div key={index} className='col-6 col-md-4'>
+                        <div className='toast-card mt-5'>
+                            <div className='w-100 d-flex justify-content-center'>
+                                <CircleImage src={person.image} />
+                            </div>
+                            <div className='mt-3 text-center'>
+                                <h3>{person.name}</h3>
+                                <p>{person.title}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            ))}
-        </div>
+                ))}
+            </div>
+        </>
     );
 };
 
