@@ -3,6 +3,7 @@ import Hero from '../Hero/Hero';
 import Navbar from '../Navbar';
 import Toast from '../Toast/Toast';
 import Party from '../Party/Party';
+import Info from '../Info/Info';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <div className="wrapper d-flex flex-column align-items-center">
             <Navbar />
             <Hero />
+            <Info />
             <Toast />
             <Party />
         </div>
