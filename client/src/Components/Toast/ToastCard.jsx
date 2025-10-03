@@ -6,7 +6,7 @@ const ToastCard = ({ name, image, description, email }) => {
                 <img src={image} alt={name} className='toast-card-image mx-0' />
             </div>
             <div className='toast-card-info'>
-                <h3>{name}</h3>
+                <h3 className='mb-3'>{name}</h3>
                 <p>{description}</p>
                 <p><b>Email:</b> {email}</p>
             </div>

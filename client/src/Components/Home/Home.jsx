@@ -14,6 +14,9 @@ const Home = () => {
             <Info />
             <Toast />
             <Party />
+            <div className='container mt-5 footer d-flex justify-content-center p-5'>
+                © 2025 Pascal & Sofia
+            </div>
         </div>
     );
 };
