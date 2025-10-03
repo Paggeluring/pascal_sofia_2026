@@ -9,8 +9,8 @@
     max-width: 600px;
     height: 100%;
     position: relative;
-    mask-image: linear-gradient(left top,from(rgba(0,0,0,1)), to(rgba(0,0,0,0)) 25%);
-    -webkit-mask-image: -webkit-gradient(linear, left 25%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+    mask-image: linear-gradient(left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)) 25%);
+    -webkit-mask-image: -webkit-gradient(linear, left 25%, left top, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)))
 }
 
 .hero-waves {
@@ -35,18 +35,7 @@
 }
 
 .hero-btn {
-    background: #2596be;
-    color: white;
-    text-decoration: none;
     width: 100%;
-    border-radius: 30px;
     padding: 15px;
-    text-align: center;
-    display: block;
-}
 
-.hero-btn:hover {
-    background: #1e7a99;
-    color: white;
-    text-decoration: none;
 }

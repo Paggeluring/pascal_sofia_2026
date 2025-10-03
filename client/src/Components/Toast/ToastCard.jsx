@@ -1,5 +1,5 @@
 
-const ToastCard = ({ name = "Namn", image = "/img/anton.png", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam," }) => {
+const ToastCard = ({ name, image, description, email }) => {
     return (
         <div className='toast-card mb-5'>
             <div className='w-100 d-flex justify-content-center'>
@@ -8,6 +8,7 @@ const ToastCard = ({ name = "Namn", image = "/img/anton.png", description = "Lor
             <div className='toast-card-info'>
                 <h3>{name}</h3>
                 <p>{description}</p>
+                <p><b>Email:</b> {email}</p>
             </div>
         </div>
     );
