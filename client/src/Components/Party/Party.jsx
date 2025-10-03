@@ -6,12 +6,12 @@ const Party = () => {
         { name: 'Emma', title: 'Huvudtärna', image: '/img/emma.png' },
         { name: 'Christian', title: 'Marskalk', image: '/img/chrille.jpeg' },
         { name: 'Lotta', title: 'Tärna', image: '/img/lotta.png' },
-        { name: 'Sebastian', title: 'Marskalk', image: '/img/sebbe.png' },
+        { name: 'Sebastian', title: 'Marskalk', image: '/img/sebbe.PNG' },
         { name: 'Anton', title: 'Tärna', image: '/img/anton.png' },
-        { name: 'Anton', title: 'Marskalk', image: '/img/antonj.png' },
+        { name: 'Anton', title: 'Marskalk', image: '/img/antonj.PNG' },
         { name: 'Frida', title: 'Tärna', image: '/img/frida.png' },
         { name: 'Love', title: 'Marskalk', image: '/img/love.png' },
-        { name: 'Daniel', title: 'Marskalk', image: '/img/balogh.png' },
+        { name: 'Daniel', title: 'Marskalk', image: '/img/balogh.PNG' },
     ];
 
     return (
