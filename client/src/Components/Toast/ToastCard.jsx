@@ -1,5 +1,5 @@
 
-const ToastCard = ({ name, image, description, email }) => {
+const ToastCard = ({ name, image, description }) => {
     return (
         <div className='toast-card mb-5'>
             <div className='w-100 d-flex justify-content-center'>
@@ -8,7 +8,6 @@ const ToastCard = ({ name, image, description, email }) => {
             <div className='toast-card-info'>
                 <h3 className='mb-3'>{name}</h3>
                 <p>{description}</p>
-                <p><b>Email:</b> {email}</p>
             </div>
         </div>
     );
