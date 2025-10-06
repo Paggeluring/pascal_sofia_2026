@@ -13,10 +13,6 @@ const Toast = () => {
                 <div className='col-12 col-md-6'>
                     <ToastCard name='Mattias Kylenborg' image='/img/mattias.png' description='Straight from Kalix har vi Mattias som kom till Stockholm för att söka lyckan som UX-designer. Mattias är inte bara bra på design, han är också bra på fest! Om ni tycker om att ha roligt på bröllop (och uppskattar norrländsk dialekt) så lovar vi att vi har hittat rätt man för jobbet som vår toastmaster. ' />
                 </div>
-
-                <p className='text-center'>
-                    💕 🎤 Vi skulle bli SÅ glada om ni vill hålla tal under vår middag. Anmälan av tal och spex gör ni till pascalochsofia@gmail.com senast 30/03/2026 och tas emot av våra toastmasters.
-                </p>
             </div>
         </div>
     );
