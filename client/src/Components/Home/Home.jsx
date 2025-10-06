@@ -16,7 +16,7 @@ const Home = () => {
         <div className="wrapper d-flex flex-column align-items-center">
             <Hero />
             <Text text="Vi skulle bli SÅ glada om ni vill hålla tal under vår middag. Anmälan av tal och spex gör ni till pascalochsofia@gmail.com senast 2026/03/30 och tas emot av våra toastmasters." header="💕 Tal & Spex 🎤" />
-            <Text text="För fredagen har vi ingen klädkod men för lördagen är det mörk kostym som gäller." header="💃 Klädkod 🕺" />
+            <Text text="Dresscode för bröllopsdagen är mörk kostym, men för fredagen och söndagen är valet fritt." header="💃 Klädkod 🕺" />
             <Info />
             <Toast />
             <Party />
