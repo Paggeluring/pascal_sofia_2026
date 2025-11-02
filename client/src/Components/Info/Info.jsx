@@ -44,7 +44,7 @@ const Info = () => {
                     </p>
                     <div className='info-text-section'>
                         <p>
-                            För våra övernattande gäster serveras frukost i Ramsviks restaurang.
+                            För våra övernattande gäster serveras frukost i Ramsviks restaurang. Notera att ni behöver lägga till frukost i samband med er bokning.
                         </p>
 
                         <p>
